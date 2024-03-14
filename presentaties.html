@@ -4,7 +4,6 @@
 </head>
 <style>
 body {background-color: #141414;}
-
 h1 {font-family: "Raleway", sans-serif;
 	color: white;
 	font-size: 32px;
@@ -14,15 +13,17 @@ h2 {font-family: "Raleway", sans-serif;
 	color: #bebebb;
 	font-size: 16px;
 	margin: 10px 25px 10px;}
+img{
+	width: 400px;
+	float: left;}
 ul{ list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+	width: 100%;
     background-color: #333;}
-img{ width: 400px;
-float: right;
-margin: 50px 20px 10px;}
 li{float: left;}
+
 li a{display: block;
     color: white;
     text-align: center;
@@ -32,18 +33,63 @@ li a{display: block;
 li a:hover {
     color:tomato;
   }
-  iframe {margin: 8px;}
+iframe {margin: 2px;
+		}
+iframe:hover{
+border: 2px solid white;
+  border-radius: 5px;
+  width: 25%;}
+  .grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 47px 300px 2px 800px 60px;
+	background-color: #141414;
+	justify-content: space-evenly;
+	gap: 5px 5px;}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
 </style>
-<ul>
+ <div class="grid-container">
+  <div class="item1">
+  <ul>
     <li><a href="streaming.html">BROWSE</a></li>
     <li><a href="presentaties.html">DUITS PRESENTATIES</a></li>
     <li><a href="bonuscontent.html">BONUS CONTENT</a></li>
 </ul>
-<img src="https://lh3.googleusercontent.com/pw/AP1GczNbYi37rBYXl99pxLHHVNJG2KxqIqnPeeM1JiEhSO6GYCzGk4il9Zt8NsTUGzkxtxAvDBXiWOgc7DRAC1PTwTiSa34KNKQiWzmZ8T4o16Fnb9pkCTwdxGU4c4PzfetUI_CWro0hXwNAWUH5b0apaVs=w960-h540-s-no?authuser=0">
-<h1>Duits Presentaties:</h1>
+</div>
+  <div class="item2"><h1>Duits Presentaties:</h1>
 <h2>2 Presentaties</h2><br>
-<h2>De originele Duits Presentaties, gemaakt om mensen te informeren over verschillende onderwerpen.</h2>
-<br><br><br><br><br><br>
-<ul style="height:2px"><li><a></a></li></ul>
-<iframe style="float:left" width="448" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe style="float:left" width="448" height="252" src="https://www.youtube.com/embed/hQK0SW2Hyps?si=_aehEfuIQycvGoHhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2>De originele Duits Presentaties, gemaakt om mensen te informeren over verschillende onderwerpen.</h2></div>
+  <div class="item3">
+  <p style = "text-align: center"><img src="https://lh3.googleusercontent.com/pw/AP1GczNbYi37rBYXl99pxLHHVNJG2KxqIqnPeeM1JiEhSO6GYCzGk4il9Zt8NsTUGzkxtxAvDBXiWOgc7DRAC1PTwTiSa34KNKQiWzmZ8T4o16Fnb9pkCTwdxGU4c4PzfetUI_CWro0hXwNAWUH5b0apaVs=w960-h540-s-no?authuser=0"></p>
+  </div>
+  <div class="item4"><ul style="height:2px;"><li><a></a></li></ul></div>
+  <div class="item5">
+  <p style="text-align: center">
+<h1>Duits Presentaties:</h1>
+<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+</div>
+  <div class="item6">Footnote</div>
+</div> 
