@@ -1,1 +1,4 @@
 body {background-color: chocolate;}
+h1 {display: inline-block;
+    background-color: black;
+    max-width: 100%;}
