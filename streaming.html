@@ -1,44 +1,75 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-</head>
 <style>
-body {background-color: #e7625f;}
+* {box-sizing:border-box}
+let slideIndex = 0;
+showSlides();
 
-h1 {font-family: "Raleway", sans-serif;
-	color: white;
-	font-size: 12 px;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-ul{ list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;}
-li{float: left;}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-li a{display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;}
-li a:hover {
-  }
-iframe {margin: 2px;}
-iframe:hover{
-border: 2px solid white;
-  border-radius: 5px;}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
 </style>
-<ul>
-    <li><a href="streaming.html">BROWSE</a></li>
-    <li><a href="presentaties.html">DUITS PRESENTATIES</a></li>
-    <li><a href="bonuscontent.html">BONUS CONTENT</a></li>
-</ul>
-<img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/wide2.png?raw=true" style="width:100%;height:100"></img>
-<p style="text-align: center">
-<h1>Duits Presentaties:</h1>
-<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="24%" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+</head>
+<body>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/Untitled.jpg?raw=true" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <a href="presentaties.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczO6MXkCXCk0JiUtXp-0FXkBL2ge_LiK9fMH_BQgMh0Z72LxzRuJ4b2J6juk2v74FnZPjdPhdjJqTu8FeF7U6314QOQYAlGa47BrPK-pGvUYc9ma3NrqfExL62HnToXjkHg59naJRl_xOdQwVVj2J5caEEaBvroMC_6MYhEWwYyKw88ctdNzYFpGB4ga2lo3CpQOGb2ya3kliWeAFx9uUfGZxsBF4SD9LaAAL4E27kT8hQ53iqN2bjhT72jPan4ZKnTxEFRANJhGxOaL4eTK62uqjEB1ZEDay1iE_Fb9dasrdIlvL3Wa9qyCB_NnbkwCwQpoasdtYWtSHaPQE5x6b50miihsC8N8hSRIGnN6gtWX5edh1MhRLdHY_SG4PxHIx4oBYFj6pX5SmNEsvOzXm6e5L7TV-GqJ1dIUbU6VWMvanVpPidK7N6hLZGmYCt0E6SmQykdpN6cAS-gIgE7QfCAsplJKJ1BTGYr3jhXHiJGwKKltfyn53JAudf42oqZz25qfv8RDvFmLqJWVRe0gHE7vCRbjnp_ZSZXgk1ppVJPAOMdj-GFhW7cg19A6PmeaO2RwdhnU01RaUP3RLAtS0gU7LPbzM0pGySo94f8LSkrsKHK22RhtVoyp9h1tYneYD1l28EQTHEzlMyDGO9LzSfMhEUtI9NraIZ3qZJp8R3sjDGgTpTf1Xj_Ml3xGvehATAFzt7KyskXZCoYOf7Kun2s2reAezRTjXTrTS7aipTgaFIkJ5ReQFQCkiNetjF_yRR9le5Y19CTXA6q3oA7JoA3-RKlJFj1WzOdYdZMbnKtpDBTZHxl3zex5H4tUcI9U14KRJBzRRbI02sEy7bH9i4tlwVjm01S-hO209viPIJOmOycIDBjYCzrCjdCaGn5AgT5aNimX3VO59181UsiWaan0vgs9dTHe6VTqbDRhCfPP3G62l-o-odq3oA=w1920-h720-s-no?authuser=0" style="width:100%"></a>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/sitemuziek.jpg?raw=true" style="width:100%">
+  </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+} 
+</script>
+</body>
+</html>
