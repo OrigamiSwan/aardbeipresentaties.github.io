@@ -2,3 +2,8 @@ body {background-color: chocolate;}
 h1 {display: inline-block;
     background-color: black;
     max-width: 100%;}
+ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
