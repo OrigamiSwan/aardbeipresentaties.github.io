@@ -11,3 +11,6 @@ li{float: left;}
 a{display: block;
   padding: 8px;
   background-color: darkgray;}
+  li a:hover {
+    font-weight: bold;
+  }
