@@ -2,15 +2,17 @@ body {background-color: tomato;}
 h1 {display: inline-block;
     background-color: black;
     max-width: 100%;}
-ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+
+ul{ list-style-type: none;
+    margin: 0;
+    padding: 0;}
 li{float: left;}
+
 a{display: block;
   padding: 8px;
-  background-color: darkgray;}
-  li a:hover {
-    font-weight: bold;
+  background-color: darkgray;
+  color: black;}
+
+li a:hover {
+    color:tomato;
   }
