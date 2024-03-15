@@ -1,76 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
 <style>
-* {box-sizing:border-box}
-let slideIndex = 0;
-showSlides();
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+body{
+	background-color: #141414;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto 356px 356px 356px 356px 356px auto;
+	grid-template-rows: 47px 300px 80px 180px 80px;
+	background-color: #333;
+	gap: 3px 15px;}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+.item3{
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+.video1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.video2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.video3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.video4 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.video5 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.tekst1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.tekst2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.tekst3{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.tekst4{
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.tekst5{
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+img {
+	width: 356px;
+	height: 200px;
+	transition: transform 0.5s, filter 0.5s;
 }
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+img:hover {
+	transform: scale(1.015, 1.015);
+	filter: brightness(75%);
+	border-radius: 5px;
 }
-
-@keyframes fade {
-  from {opacity: .7}
-  to {opacity: 1}
+p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
 }
 </style>
-</head>
-<body>
- <!-- Slideshow contsainer -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/Untitled.jpg?raw=true" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <a href="presentaties.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczO6MXkCXCk0JiUtXp-0FXkBL2ge_LiK9fMH_BQgMh0Z72LxzRuJ4b2J6juk2v74FnZPjdPhdjJqTu8FeF7U6314QOQYAlGa47BrPK-pGvUYc9ma3NrqfExL62HnToXjkHg59naJRl_xOdQwVVj2J5caEEaBvroMC_6MYhEWwYyKw88ctdNzYFpGB4ga2lo3CpQOGb2ya3kliWeAFx9uUfGZxsBF4SD9LaAAL4E27kT8hQ53iqN2bjhT72jPan4ZKnTxEFRANJhGxOaL4eTK62uqjEB1ZEDay1iE_Fb9dasrdIlvL3Wa9qyCB_NnbkwCwQpoasdtYWtSHaPQE5x6b50miihsC8N8hSRIGnN6gtWX5edh1MhRLdHY_SG4PxHIx4oBYFj6pX5SmNEsvOzXm6e5L7TV-GqJ1dIUbU6VWMvanVpPidK7N6hLZGmYCt0E6SmQykdpN6cAS-gIgE7QfCAsplJKJ1BTGYr3jhXHiJGwKKltfyn53JAudf42oqZz25qfv8RDvFmLqJWVRe0gHE7vCRbjnp_ZSZXgk1ppVJPAOMdj-GFhW7cg19A6PmeaO2RwdhnU01RaUP3RLAtS0gU7LPbzM0pGySo94f8LSkrsKHK22RhtVoyp9h1tYneYD1l28EQTHEzlMyDGO9LzSfMhEUtI9NraIZ3qZJp8R3sjDGgTpTf1Xj_Ml3xGvehATAFzt7KyskXZCoYOf7Kun2s2reAezRTjXTrTS7aipTgaFIkJ5ReQFQCkiNetjF_yRR9le5Y19CTXA6q3oA7JoA3-RKlJFj1WzOdYdZMbnKtpDBTZHxl3zex5H4tUcI9U14KRJBzRRbI02sEy7bH9i4tlwVjm01S-hO209viPIJOmOycIDBjYCzrCjdCaGn5AgT5aNimX3VO59181UsiWaan0vgs9dTHe6VTqbDRhCfPP3G62l-o-odq3oA=w1920-h720-s-no?authuser=0" style="width:100%"></a>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/sitemuziek.jpg?raw=true" style="width:100%">
-  </div>
+<body style="margin:0">
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Banner</div>
+  <div class="item3"><p style="font-size:30px">Duits Presentaties:</p></div>
+  <div class="video1"><img src="https://lh3.googleusercontent.com/pw/AP1GczPZOnvEfds-VeYbS9Y1OepO1zYgMQa1MCEq-1LJbErSS_UlfJPoNjt7Q1doGkMs1LNd0tXq_pB_HGukdRkzBtzT8Dti5Eb-tknDRSyCgfbH1DTAQA_DzRoHz86-aQat5eveUjRS-NNjmLLNccOzXCWMxcLdPDAYMMVs9KobatcIY484Ig7kbndxsbOBm9baKj7GDTb0PtXFn4yXwIi1q8P95wSvqmbhYqft5dbzl7_pOfy68R1SiZkHylIFPUGUxpLILvHf2Z4f-oektsbJ3lmIV1dGsHNLgfi5JA82WyDEeHitcWm1CcyMd5RGywt-uEESUVzBkdvDtteRwsC5J7X8RO1geqPkFen5pk-J0e9TTu92LEz4BqIBQAL13t0CpoxGqXhbary5kXb_lM98whS6A4s8ZNO_c03XlPjYvnSBy6XScTRwLyLYjfGk1KDYexkzNQ8AZmIF7p6563sCNZ3RvwjV1D5wyV0p5okC6a7fhD76wPqKTDPWoPqvHsgonCLX_l1hje-ghLktRO7p1NXDpBdVc9Sh1cGZZumKf4gzxHdrgu7kdaNi6L4flLbs0-PGPcDK-LR6N858rlQfpszcAYI8UxTo3kyJxSO_LGq4u5eHnsnyGQKMsku-7tKy5JAfF0h2HxSxjf_fTyJqgLIgep-Bsd9st846SlcxTy4YzipYKFt8O--f-uQZI6ur8ziavftPnk4kGuJAfY2rVvdGQE-rHYkIuTZJI3bjpeBDwWKpprzhGvcwrcFJ-CFWgdSciWfPPbxjLU0F6-7ZoWAVnFZPtHT33ojkOgFqMKiUlGqIxEcZ28Xjxtj-vgsxefDltngTE9NjHGokZiVpJK9qvQ98A0LvWjy0hAJ3UGw7BWTD3DyHi8yL-x3KMCoNN7W-jXVmoYuFUVO1aNBlMnuHqQTNMnKzWjDm7Fflh-omEutX81w8CouExA=w1650-h928-s-no?authuser=0" class="image"></div>
+  <div class="video2"><img src="https://lh3.googleusercontent.com/pw/AP1GczNbYi37rBYXl99pxLHHVNJG2KxqIqnPeeM1JiEhSO6GYCzGk4il9Zt8NsTUGzkxtxAvDBXiWOgc7DRAC1PTwTiSa34KNKQiWzmZ8T4o16Fnb9pkCTwdxGU4c4PzfetUI_CWro0hXwNAWUH5b0apaVs=w960-h540-s-no?authuser=0"></img></div>
+  <div class="video3"></div>
+  <div class="video4"></div>
+  <div class="video5"></div>
+  <div class="tekst1"><p>Duits Presentatie</p></div>
+  <div class="tekst2"><p>2 Duits 2 Presentatie</p></div>
+  <div class="tekst3"></div>
+  <div class="tekst4"></div>
+  <div class="tekst5"></div>
 </div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div> 
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
-
-</script>
 </body>
 </html>
