@@ -3,7 +3,10 @@
 	background-color: tomato; /* For browsers that do not support gradients */
 	background-image: linear-gradient(#e7625f, tomato);
   }
-ul{ list-style-type: none;
+ body{
+	color:  linear-gradient(#e7625f, tomato);
+ } 
+  ul{ list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
