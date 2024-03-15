@@ -1,11 +1,7 @@
-#grad1 {
-	height: 800px;
+.gradient {
 	background-color: tomato; /* For browsers that do not support gradients */
 	background-image: linear-gradient(#e7625f, tomato);
   }
- body{
-	color:  linear-gradient(#e7625f, tomato);
- } 
   ul{ list-style-type: none;
     margin: 0;
     padding: 0;
