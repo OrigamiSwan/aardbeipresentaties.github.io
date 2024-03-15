@@ -203,7 +203,6 @@
 * {box-sizing:border-box}
 let slideIndex = 0;
 showSlides();
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -228,23 +227,6 @@ showSlides();
 }
 </style>
 <body style="margin:0">
-<script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      slides[slideIndex-1].style.display = "block";
-      setTimeout(showSlides, 5000); // Change image every 2 seconds
-    }
-    
-</script>
 <ul>
     <li><a href="streaming.html">BROWSE</a></li>
     <li><a href="presentaties.html">DUITS PRESENTATIES</a></li>
@@ -275,7 +257,23 @@ showSlides();
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div> 
-
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+  }
+  
+</script>
 <div class="grid-container">
   <div class="item3"><p style="font-size:30px">Duits Presentaties:</p></div>
   <div class="video1"><a href="duitspresentatie.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczMnFTs3vi8ITvduNOXvKm4z4Y3KFU9xSgiIq9V6K-_wp-e8K-t7vwY0lHOsGDECtAnR387YgvAp7tHHk8joPhKYDNXm9mDwY2rb3XaPjmf2fEZSDIXE5sRb4qMogljt43jijTy8rB4XAyEMsMliTn0=w1650-h928-s-no?authuser=0" class="thumbnail"></a></div>
