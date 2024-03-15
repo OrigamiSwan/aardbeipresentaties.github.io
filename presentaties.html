@@ -1,55 +1,15 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="style.css">
 </head>
 <style>
-body {background-color: #333;}
-h1 {font-family: "Raleway", sans-serif;
-	color: white;
-	font-size: 32px;
-	margin: 50px 25px 10px}
-	
-h2 {font-family: "Raleway", sans-serif;
-	color: #bebebb;
-	font-size: 16px;
-	margin: 10px 25px 10px;}
-img{
-	width: 400px;
-	float: left;}
-ul{ list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	width: 100%;
-    background-color: #141414;}
-li{float: left;}
-
-li a{display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	font-family: Raleway, sans-serif;}
-li a:hover {
-    color:tomato;
-  }
-iframe {margin: 3px;
-		}
-iframe:hover{
-border: 2px solid white;
-  border-radius: 5px;
-  width: 25%;}
-
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
 	grid-template-rows: 47px 300px 2px 800px 60px;
 	background-color: #333;
 	gap: 5px 5px;}
-.item1 {
-  grid-column-start: 1;
-  grid-column-end: 7;
-}
 .item2 {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -62,9 +22,17 @@ border: 2px solid white;
   grid-column-start: 1;
   grid-column-end: 7;
 }
-.item5 {
+.tekst1 {
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 3;
+}
+.video1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.video2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -75,28 +43,22 @@ border: 2px solid white;
 
 </style>
 <body style="margin:0;">
-<div class="grid-container">
-  <div class="item1">
-  <ul>
+<ul>
     <li><a href="streaming.html">BROWSE</a></li>
     <li><a href="presentaties.html">DUITS PRESENTATIES</a></li>
     <li><a href="bonuscontent.html">BONUS CONTENT</a></li>
 </ul>
-</div>
-  <div class="item2"><h1>Duits Presentaties:</h1>
+<div class="grid-container">
+<div class="item2"><h1>Duits Presentaties:</h1>
 <h2>2 Presentaties</h2><br>
 <h2>De originele Duits Presentaties, gemaakt om mensen te informeren over verschillende onderwerpen.</h2></div>
   <div class="item3">
   <p style = "text-align: center"><img src="https://lh3.googleusercontent.com/pw/AP1GczNbYi37rBYXl99pxLHHVNJG2KxqIqnPeeM1JiEhSO6GYCzGk4il9Zt8NsTUGzkxtxAvDBXiWOgc7DRAC1PTwTiSa34KNKQiWzmZ8T4o16Fnb9pkCTwdxGU4c4PzfetUI_CWro0hXwNAWUH5b0apaVs=w960-h540-s-no?authuser=0"></p>
   </div>
   <div class="item4"><ul style="height:2px;"><li><a></a></li></ul></div>
-  <div class="item5">
-  <p style="text-align: center;">
-<h1>Duits Presentaties:</h1><br>
-<iframe width="448" height="252" src="https://www.youtube.com/embed/-re6OaZTikg?si=2YwB8b2OlA_O5ucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="448" height="252" src="https://www.youtube.com/embed/hQK0SW2Hyps?si=6CNNY0hEgbGPASn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
-</div>
-  <div class="item6">Footnote</div>
+<div class="tekst1"><h1>Duits Presentaties:</h1></div>
+<div class="video1"><a href="duitspresentatie.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczMnFTs3vi8ITvduNOXvKm4z4Y3KFU9xSgiIq9V6K-_wp-e8K-t7vwY0lHOsGDECtAnR387YgvAp7tHHk8joPhKYDNXm9mDwY2rb3XaPjmf2fEZSDIXE5sRb4qMogljt43jijTy8rB4XAyEMsMliTn0=w1650-h928-s-no?authuser=0" class="thumbnail"></a></div>
+<div class="video2"><a href="2duits2presentatie.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczNbYi37rBYXl99pxLHHVNJG2KxqIqnPeeM1JiEhSO6GYCzGk4il9Zt8NsTUGzkxtxAvDBXiWOgc7DRAC1PTwTiSa34KNKQiWzmZ8T4o16Fnb9pkCTwdxGU4c4PzfetUI_CWro0hXwNAWUH5b0apaVs=w960-h540-s-no?authuser=0" class="thumbnail"></a></div>
+<div class="item6">Footnote</div>
 </div>
 </body>
