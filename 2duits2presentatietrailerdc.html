@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<style>
+.grid-container{
+	display: grid;
+	grid-template-columns: 356px auto 356px;
+	grid-template-rows: 860px 380px;
+	background-color: #333;
+	gap: 3px;}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+.video {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.description {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
+}
+ul{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width: 100%;
+    background-color: #141414;}
+li{float: left;}
+
+li a{display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Raleway, sans-serif;}
+li a:hover {
+    color:tomato;
+  }
+</style>
+<body style = "margin:0">
+<ul>
+    <li><a href="streaming.html">BROWSE</a></li>
+    <li><a href="presentaties.html">DUITS PRESENTATIES</a></li>
+    <li><a href="bonuscontent.html">BONUS CONTENT</a></li>
+</ul>
+<div class="grid-container">
+	<div class="video" style="background-color: black"><iframe width="1529" height="860" src="https://www.youtube.com/embed/LPT6SjY9xuc?si=wj_oPOJIE2QO6VvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	<div class="description">
+	<p style="font-size:30px">2 Duits 2 Presentatie Trailer Director's Commentary</p>
+	<p>Commentary van Micha Roosjen en Jelle van der Weide op 2 Duits 2 Presentatie trailer, met verduidelijking voor de keuzes van de afbeeldingen die zijn gebruikt in de trailer.</p></div>
+</div>
+</body>
+</html>
