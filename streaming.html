@@ -200,8 +200,8 @@
   grid-column-end: 8;
 }
 * {box-sizing:border-box}
-let slideIndex = 0;
-showSlides();
+.mySlides {display: none}
+img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -218,22 +218,6 @@ showSlides();
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 @keyframes fade {
   from {opacity: .7}
@@ -252,11 +236,11 @@ showSlides();
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <img height="720px" src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/Untitled.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/Untitled.jpg?raw=true" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <a href="presentaties.html"><img height="720px "src="https://lh3.googleusercontent.com/pw/AP1GczM-he4ZoYbx4Ou9XQoYS6Q-D4cB6tyqUGw4yEv32j1dPBAfG91-DYTxKQIoXNoCOd2isPiBmdYF88juynoV6acDBj2Fo3IAffB7tCn7kQQWPaa_yoqcay8CAEKgeqasnNh_QL40_VexAi9x9H3yjvE=w1920-h720-s-no?authuser=0" style="width:100%"></a>
+    <a href="presentaties.html"><img src="https://lh3.googleusercontent.com/pw/AP1GczM-he4ZoYbx4Ou9XQoYS6Q-D4cB6tyqUGw4yEv32j1dPBAfG91-DYTxKQIoXNoCOd2isPiBmdYF88juynoV6acDBj2Fo3IAffB7tCn7kQQWPaa_yoqcay8CAEKgeqasnNh_QL40_VexAi9x9H3yjvE=w1920-h720-s-no?authuser=0" style="width:100%"></a>
   </div>
 
   <div class="mySlides fade">
@@ -264,13 +248,6 @@ showSlides();
   </div>
 </div>
 <br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div> 
 <script>
   let slideIndex = 0;
   showSlides();
