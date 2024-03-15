@@ -1,6 +1,8 @@
-body{
-	background-color: #333;
-}
+#grad1 {
+	height: 800px;
+	background-color: tomato; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#e7625f, tomato);
+  }
 ul{ list-style-type: none;
     margin: 0;
     padding: 0;
