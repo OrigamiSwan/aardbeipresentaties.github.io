@@ -23,13 +23,20 @@ p {
 	float: top;
 }
 .thumbnail {
-	width: 356px;
-	height: 200px;
+	width: 332px;
+	height: 186px;
 	transition: transform 0.5s, filter 0.5s;
+	box-shadow: 0 0 40px black;
+	border-radius: 5px;
 }
 .thumbnail:hover {
-	transform: scale(1.015, 1.015);
+	transform: scale(1.075, 1.075);
 	filter: brightness(75%);
 	border: 2px solid white;
 	border-radius: 5px;
+}
+.gradient{
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+
 }
