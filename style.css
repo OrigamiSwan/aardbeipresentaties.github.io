@@ -35,8 +35,3 @@ p {
 	border: 2px solid white;
 	border-radius: 5px;
 }
-.gradient{
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-
-}
