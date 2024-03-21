@@ -3,7 +3,7 @@
 <head>
   <title>Aardbei TV+</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="style.css">
+
     <link rel="shortcut icon" type="image/x-icon" href="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/logo2.jpg?raw=true" />
 </head>
 <style>
@@ -13,6 +13,58 @@
 	grid-template-rows: 80px 180px 80px 2px 80px 180px 80px 2px 80px 180px 80px 40px;
 	background: linear-gradient(173deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
 	gap: 6px;}
+  p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
+}
+.thumbnail {
+	width: 332px;
+	height: 186px;
+	transition: transform 0.5s, filter 0.5s;
+	box-shadow: 0 0 40px black;
+	border-radius: 5px;
+}
+.thumbnail:hover {
+	transform: scale(1.075, 1.075);
+	filter: brightness(75%);
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.gradient{
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #141414;
+	max-height: 77px;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size:20px;
+	font-family: raleway, sans-serif;
+  }
+  
+  li a:hover {
+	color: tomato;
+  }
+
   @media only screen and (max-width: 620px) {
   p {
 	text-align: left;
@@ -45,8 +97,8 @@
 	grid-template-rows: 50px 186px 36px 2px 50px 186px 70px 2px 50px 186px 35px 40px;
 	background: linear-gradient(180deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
 	gap: 6px;}  
-  
- }
+  }
+
 .item3{
   grid-column-start: 2;
   grid-column-end: 7;
