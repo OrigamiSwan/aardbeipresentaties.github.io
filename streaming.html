@@ -2,365 +2,372 @@
 <html>
 <head>
   <title>Aardbei TV+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
     <link rel="shortcut icon" type="image/x-icon" href="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/logo2.jpg?raw=true" />
 </head>
 <style>
-.grid-container{
-	display: grid;
-	grid-template-columns: auto 356px 356px 356px 356px 356px auto;
-	grid-template-rows: 80px 180px 80px 2px 80px 180px 80px 2px 80px 180px 80px 40px;
-	background: linear-gradient(173deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
-	gap: 6px;}
+  .grid-container{
+    display: grid;
+    grid-template-columns: 2.75% 18.5% 18.5% 18.5% 18.5% 18.5%;
+    grid-template-rows: 80px 186px 80px 2px 80px 186px 80px 2px 80px 186px 80px 40px;
+    background: linear-gradient(180deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
+    gap: 6px;
+    }
   p {
-	text-align: left;
-	font-family: raleway, sans-serif;
-	color: white;
-	font-size: 20px;
-	float: top;
-}
-.thumbnail {
-	width: 332px;
-	height: 186px;
-	transition: transform 0.5s, filter 0.5s;
-	box-shadow: 0 0 40px black;
-	border-radius: 5px;
-}
-.thumbnail:hover {
-	transform: scale(1.075, 1.075);
-	filter: brightness(75%);
-	border: 2px solid white;
-	border-radius: 5px;
-}
-.gradient{
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #141414;
-	max-height: 77px;
+    text-align: left;
+    font-family: raleway, sans-serif;
+    color: white;
+    font-size: 20px;
+    float: top;
   }
-  
-  li {
-	float: left;
+  .header1{
+    font-size:1.55vw;
+    }
+   #slideshow {
+    height: 720px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
   }
-  
-  li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size:20px;
-	font-family: raleway, sans-serif;
+  #slideshow img {
+    height: 720px;
+    width: 100%;
   }
-  
-  li a:hover {
-	color: tomato;
-  }
-
+    .navimage{
+    width:45px;
+    height:45px;
+    }
   @media only screen and (max-width: 620px) {
-  p {
-	text-align: left;
-	font-family: raleway, sans-serif;
-	color: white;
-	font-size: 1.5vw;
-	float: top;
- }
-  .navimage{
-  width:25px;
-  height:25px;
+    p {
+    text-align: left;
+    font-family: raleway, sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    float: top;
+   }
+    .navimage{
+    width:25px;
+    height:25px;
+    }
+  #slideshow {
+    height: 540px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
   }
-#slideshow {
-  height: 540px;
-  width: 100%;
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-#slideshow img {
-  height: 540px;
-  width: 100%;
-}
-.header1{
-  font-size:4.5vw;
-  } 
-.grid-container{
-	display: grid;
-	grid-template-columns: 2.75% 18.5% 18.5% 18.5% 18.5% 18.5%;
-	grid-template-rows: 50px 186px 36px 2px 50px 186px 70px 2px 50px 186px 35px 40px;
-	background: linear-gradient(180deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
-	gap: 6px;}  
+  #slideshow img {
+    height: 540px;
+    width: 100%;
   }
-
-.item3{
-  grid-column-start: 2;
-  grid-column-end: 7;
-}
-.video1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.video2 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.video3 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.video4 {
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.video5 {
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.tekst1{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.tekst2{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.tekst3{
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.tekst4{
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.tekst5{
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.lijn1{
-	grid-column-start: 1;
-	grid-column-end: 8;
-}
-.item4{
-  grid-column-start: 2;
-  grid-column-end: 7;
-}
-.video6{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.video7 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.video8 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.video9 {
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.video10 {
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.tekst6{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.tekst7{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.tekst8{
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.tekst9{
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.tekst10{
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.lijn1{
-	grid-column-start: 1;
-	grid-column-end: 8;
-}
-.item5{
-  grid-column-start: 2;
-  grid-column-end: 7;
-}
-.video6{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.video7 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.video8 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.video9 {
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.video10 {
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.tekst6{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.tekst7{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.tekst8{
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.tekst9{
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.tekst10{
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.lijn2{
-	grid-column-start: 1;
-	grid-column-end: 8;
-}
-.video11{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.video12{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.video13{
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.video14{
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.video15{
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.tekst11{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.tekst12{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.tekst13{
-  grid-column-start: 4;
-  grid-column-end: 5;
-}
-.tekst14{
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-.tekst15{
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-.footnote{
-  grid-column-start: 1;
-  grid-column-end: 8;
-}
-* {box-sizing:border-box}
-.mySlides {display: none}
-/* SLIDESHOW */
-#slideshow {
-  height: 720px;
-  width: 100%;
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-#slideshow img {
-  height: 720px;
-  width: 100%;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  opacity: 70%;
-  background-color: tomato;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.4s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  opacity: 100%;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 8px;
-  width: 8px;
-  margin: 0 2px;
-  background-color: tomato;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: white;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-.dots {
-  width: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -50px;
-}
-</style>
+  .header1{
+    font-size:4.5vw;
+    } 
+  .grid-container{
+    display: grid;
+    grid-template-columns: 2.75% 18.5% 18.5% 18.5% 18.5% 18.5%;
+    grid-template-rows: 50px 186px 36px 2px 50px 186px 70px 2px 50px 186px 35px 40px;
+    background: linear-gradient(180deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
+    gap: 6px;}  
+    
+   }
+    .item3{
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+  .video1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .video2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .video3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .video4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .video5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .tekst1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .tekst2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .tekst3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .tekst4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .tekst5{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .lijn1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+  .item4{
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+  .video6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .video7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .video8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .video9 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .video10 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .tekst6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .tekst7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .tekst8{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .tekst9{
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .tekst10{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .lijn1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+  .item5{
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+  .video6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .video7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .video8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .video9 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .video10 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .tekst6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .tekst7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .tekst8{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .tekst9{
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .tekst10{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .lijn2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+  .video11{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .video12{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .video13{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .video14{
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .video15{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .tekst11{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .tekst12{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .tekst13{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .tekst14{
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .tekst15{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  .footnote{
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+  
+  * {box-sizing:border-box}
+  .mySlides {display: none}
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    opacity: 70%;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    opacity: 100%;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: white;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .dots {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .thumbnail {
+    width: 94.3%;
+    height: 100%;
+    transition: transform 0.5s, filter 0.5s;
+    box-shadow: 0 0 40px black;
+    border-radius: 5px;
+  }
+  .thumbnail:hover {
+    transform: scale(1.075, 1.075);
+    filter: brightness(75%);
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .gradient{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+  
+  }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #141414;
+    max-height: 77px;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.05vw;
+    font-family: raleway, sans-serif;
+    }
+    
+    li a:hover {
+    color: tomato;
+    }
+  </style>
 <body style="margin:0">
   <ul>
     <li style="margin-top: 2.5px"><a href="streaming.html"><img width="45" height="45" src="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/logo2.jpg?raw=true"></a></a></li>
