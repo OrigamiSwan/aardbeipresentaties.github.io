@@ -1,5 +1,97 @@
 <!DOCTYPE html>
 <html>
+  <head>
+	<title>2 Duits 2 Presentatie</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="https://github.com/OrigamiSwan/aardbeipresentaties.github.io/blob/main/logo2.jpg?raw=true" />
+</head>
+<style>
+ul{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width: 100%;
+    background-color: #141414;}
+li{float: left;}
+
+li a{display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Raleway, sans-serif;}
+li a:hover {
+    color:tomato;
+  }
+p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
+}
+.thumbnail {
+	width: 356px;
+	height: 200px;
+	transition: transform 0.5s, filter 0.5s;
+}
+.thumbnail:hover {
+	transform: scale(1.015, 1.015);
+	filter: brightness(75%);
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 18.5% auto 18.5%;
+	grid-template-rows: 742px 380px;
+	background: linear-gradient(173deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
+	gap: 3px;}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+.video {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.description {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
+}
+@media only screen and (max-width: 620px) {
+  p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 1.5vw;
+	float: top;
+ }
+.header1{
+  font-size:4.5vw;
+  }
+.grid-container{
+	display: grid;
+	grid-template-columns: 18.5% auto 18.5%;
+	grid-template-rows: 68.7% 2000px 20px;
+	background: linear-gradient(180deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
+	gap: 6px;}
+ }
+
+</style>
+<!DOCTYPE html>
+<html>
 <head>
   <title>Duits Presentaties</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +102,7 @@
 <style>
 .grid-container{
 	display: grid;
-	grid-template-columns: 12.9% auto auto auto auto 12.9%;
+	grid-template-columns: 12.9% 18.55% 18.55% 18.55% 18.55% 12.9%;
 	grid-template-rows: 298px 4px 25px 180px 5px 400px;
 	background: linear-gradient(173deg, rgba(240,76,72,1) 50%, rgba(241,54,50,1) 100%);
 	gap: 6px;
@@ -66,6 +158,57 @@
 .center {
   padding: 6px
 }
+p {
+	text-align: left;
+	font-family: raleway, sans-serif;
+	color: white;
+	font-size: 20px;
+	float: top;
+}
+  .thumbnail {
+    width: 94.3%;
+    height: 100%;
+    transition: transform 0.5s, filter 0.5s;
+    box-shadow: 0 0 40px black;
+    border-radius: 5px;
+  }
+  .thumbnail:hover {
+    transform: scale(1.075, 1.075);
+    filter: brightness(75%);
+    border: 2px solid white;
+    border-radius: 5px;}
+.gradient{
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #141414;
+	max-height: 77px;
+  }
+
+  li {
+	float: left;
+  }
+
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size:20px;
+	font-family: raleway, sans-serif;
+  }
+
+  li a:hover {
+	color: tomato;
+  }
+
 </style>
 <body style="margin:0;">
   <ul>
@@ -90,4 +233,5 @@
     <div class="titel4"></div>
   </div>
 </body>
+</html>
 </html>
