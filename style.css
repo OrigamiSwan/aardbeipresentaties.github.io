@@ -53,14 +53,14 @@ ul {
     text-align: left;
     font-family: raleway, sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     float: top;
    }
     .navimage{
     width:25px;
     height:25px;
     }
-    
+
   #slideshow {
     height: 540px;
     width: 100%;
